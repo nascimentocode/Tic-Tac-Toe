@@ -31,7 +31,7 @@ def game():
             if count%2==0:
                 tabuleiro[move] = p1
                 count+=1
-            elif count%2!=0:
+            else:
                 tabuleiro[move] = p2
                 count+=1
         else:
